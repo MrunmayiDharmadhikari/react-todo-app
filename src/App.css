@@ -1,39 +1,44 @@
-.container {
-    background-color: bisque;
-    height: 100vh;
+.container{
+    background-color: burlywood;
+    height:100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
-.card{
+
+
+.card {
     background-color: white;
-    height: 60vh;
-    width: 30vw;
-    box-shadow: 3px 3px 5px #b3b3b3;
-    border-radius: 10px;
-    min-width: 20em;
-    max-width: 30em;
+    height:60vh;
+    width:50vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
 }
 
-.task-input{
-    display: flex;
-    justify-content: center;
-    margin: 1.5em 0 1.5em 0;
+.task-input {
+    padding: 20px;
+    font-size: 16px;
+    border: 2px solid #FFF;
 }
 
 .task-input input {
-    padding: 5px;
-    margin: 0 5px 0 0;
+    padding:9px;
+}
+.task-input button{
+    padding: 10px;
+    font-size: 10px;
+    margin: 10px;
+    background-color:rgb(224, 174, 113) ;
+    color:black;
+    
 }
 
-.task-list {
-    background-color: rgb(235, 219, 201);
-    margin: 1.5em;
-    padding: 1em;
+
+
+.task-list{
+    align-self: flex-start;
 }
-
-
-
 
